@@ -128,9 +128,9 @@ nav{
 }
 
 .banner-btn-1:hover{
-    color: #4EC5F7;
+    color: #ff42a5;
     background-color: azure;
-    border: 1px solid #4EC5F7;  
+    border: 1px solid #ff42a5;  
 }
 
 .banner-btn-2{
@@ -138,9 +138,9 @@ nav{
 }
 
 .banner-btn-2:hover{
-    color: #ff42a5;
+    color: #4EC5F7;
     background-color: azure;
-    border: 1px solid #ff42a5; 
+    border: 1px solid #4EC5F7;
 }
 
 @media screen and (max-width:576px) {
