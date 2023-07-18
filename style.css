@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+.btn-primary{
+    color: azure;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.head-content{
+    height: 100vh;
+}
+
+/* nav style */
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo-text h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.nav-logo-text h2 span{
+    color: #ff42a5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-item > ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.follow-us{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.nav-item ul span{
+    background-color: gray;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-text{
+    text-align: center;
+    background-image: url('images/Group 14.png');
+}
+
+.banner-text ul{
+    text-align: left;
+}
+
+.b-item1{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    margin-top: 5px; 
+} 
+
+.b-item2{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    margin-top: 5px;
+}
+
+.b-item3{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    margin-top: 5px;
+}
+
+.banner-text h3{
+    font-size: 35px;
+}
+
+.banner-text h1{
+    font-size: 80px;
+    font-weight: bolder;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.banner-buttons{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.banner-btn-1{
+    background-color: #F948B2;
+}
+
+.banner-btn-1:hover{
+    color: #4EC5F7;
+    background-color: azure;
+    border: 1px solid #4EC5F7;  
+}
+
+.banner-btn-2{
+    background-color: #4EC5F7;
+}
+
+.banner-btn-2:hover{
+    color: #ff42a5;
+    background-color: azure;
+    border: 1px solid #ff42a5; 
+}
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    .banner-image img{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+}
