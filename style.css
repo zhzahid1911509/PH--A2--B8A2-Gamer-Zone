@@ -226,6 +226,46 @@ nav{
 .online-games-photos img{
     width: 300px;
     height: 350px;
+    
+}
+
+.games-img-layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#78817b);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.games-img-layer img{
+    width: 40px;
+    height: auto;
+}
+
+.games-img-layer h5{
+    color: #F948B2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.games-img:hover{
+    transform: scale(1.1);
+}
+
+.games-img:hover .games-img-layer{
+    height: 90%;
+    cursor: pointer;
 }
 
 .caption{
