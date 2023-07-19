@@ -42,7 +42,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .nav-item > ul{
@@ -143,7 +143,35 @@ nav{
     border: 1px solid #4EC5F7;
 }
 
+.banner-image img{
+    height: 600px;
+}
+
+/* we are gamer part style */
+.we-are-gamer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+}
+
+.we-are-gamer-img{
+    width: 100%;
+    margin-left: 80px;
+}
+
+.we-are-gamer-text{
+    text-align: right;
+    margin-right: 80px; 
+}
+
 @media screen and (max-width:576px) {
+    .head-content{
+        width: 100%;
+        height: auto;
+    }
+
     nav{
         flex-direction: column;
         margin: auto;
@@ -159,5 +187,25 @@ nav{
         margin: auto;
         margin-top: 20px;
     }
-    
+
+    .we-are-gamer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .we-are-gamer-img img{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .we-are-gamer-text{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
 }
