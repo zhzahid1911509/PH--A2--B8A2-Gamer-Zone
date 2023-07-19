@@ -274,7 +274,7 @@ nav{
 
 /* play games online style */
 .play-games{
-    margin-top: 40px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -284,6 +284,7 @@ nav{
 .play-games-text{
     text-align: left;
     padding: 80px;
+    
 }
 
 .play-games-text h2{
@@ -385,6 +386,51 @@ nav{
     cursor: pointer;
 }
 
+/* footer style */
+.footer-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    height: 100vh;
+    text-align: center;
+}
+
+.footer-logo{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-list ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer-icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-items ul{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: lightgrey;
+}
+
+.copyright{
+    color: lightgray;
+}
+
 /* responsive style */
 @media screen and (max-width:576px) {
     .head-content{
@@ -396,6 +442,10 @@ nav{
     nav{
         flex-direction: column;
         margin: auto;
+    }
+
+    .nav-item > ul{
+        flex-direction: column;
     }
 
     .banner{
@@ -501,7 +551,7 @@ nav{
 
     .careers{
         height: auto;
-        margin-top: 30px;
+        margin-top: 40px;
         width: 100%;
         background-size: contain;
         margin: auto;
@@ -534,8 +584,6 @@ nav{
         gap: 10px;
     }
 
-    
-
     .first-row, .second-row{
         display: grid;
         grid-template-columns: 1fr;
@@ -545,18 +593,29 @@ nav{
     .game-type-items {
         padding: 10px;
         margin: auto;
-      }
-      
-      .item1,
-      .item2,
-      .item3,
-      .item4,
-      .item5,
-      .item6,
-      .item7,
-      .item8,
-      .item9 {
-        grid-column: auto;
-      }
+    }
 
+    .footer-container{
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    .footer-list ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .footer-items ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }
+
