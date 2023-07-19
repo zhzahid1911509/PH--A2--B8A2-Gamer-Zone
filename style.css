@@ -436,7 +436,7 @@ nav{
     align-items: center;
     background-color: black;
     color: azure;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
 }
 
@@ -466,11 +466,12 @@ nav{
     display: flex;
     gap: 20px;
     align-items: center;
-    color: lightgrey;
+    color: grey;
 }
 
 .copyright{
-    color: lightgray;
+    color: gray;
+    margin-bottom: 20px;
 }
 
 /* responsive style */
@@ -659,6 +660,7 @@ nav{
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
 }
 
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -818,6 +820,7 @@ nav{
     .game-types{
         width: 100%;
         margin: auto;
+        margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
