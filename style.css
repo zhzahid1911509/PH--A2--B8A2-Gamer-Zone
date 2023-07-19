@@ -30,7 +30,7 @@ ul li{
 }
 
 .nav-logo-text h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -42,13 +42,13 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .nav-item > ul{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .follow-us{
@@ -71,6 +71,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    background-color:rgb(234, 246, 246);
 }
 
 .banner-text{
