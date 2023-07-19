@@ -12,7 +12,7 @@ ul li{
     color: azure;
     padding: 15px 25px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 30px;
     border: none;
     cursor: pointer;
@@ -31,7 +31,7 @@ ul li{
 
 .nav-logo-text h2{
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .nav-logo-text h2 span{
@@ -105,11 +105,12 @@ nav{
 
 .banner-text h3{
     font-size: 35px;
+    font-weight: 600;
 }
 
 .banner-text h1{
     font-size: 80px;
-    font-weight: bolder;
+    font-weight: 00;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -168,7 +169,7 @@ nav{
 
 .we-are-gamer-text h2{
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: 600;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -190,6 +191,46 @@ nav{
 }
 
 /* online games style */
+.online-games{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.online-games-text h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.online-games-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.online-games-photos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.online-games-photos img{
+    width: 300px;
+    height: 350px;
+}
+
+.caption{
+    margin-top: 10px;
+}
 
 @media screen and (max-width:576px) {
     .head-content{
@@ -204,6 +245,7 @@ nav{
     }
 
     .banner{
+        
         flex-direction: column-reverse;
         width: 100%;
         margin: auto;
@@ -216,6 +258,7 @@ nav{
     }
 
     .we-are-gamer{
+        
         flex-direction: column;
         width: 100%;
         margin: auto;
@@ -237,6 +280,25 @@ nav{
         width: 100%;
         margin: auto;
         text-align: center;
+    }
+
+    .online-games{
+        
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .online-games-photos{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .online-games-text{
+        margin: auto;
     }
 
 }
