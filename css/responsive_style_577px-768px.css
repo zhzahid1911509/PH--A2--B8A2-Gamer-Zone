@@ -165,11 +165,11 @@
     .first-row, .second-row{
         display: grid;
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 20px;
     }
 
     .game-type-items {
-        padding: 10px;
+        padding: 25px;
         margin: auto;
     }
 

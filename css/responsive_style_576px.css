@@ -149,17 +149,17 @@
         margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 20px;
     }
 
     .first-row, .second-row{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         gap: 10px;
     }
 
     .game-type-items {
-        padding: 10px;
+        padding: 20px;
         margin: auto;
     }
 
